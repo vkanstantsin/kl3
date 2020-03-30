@@ -1,0 +1,4 @@
+baseURL = "http://humanitysilence.com"
+languageCode = "en-us"
+title = "Clean it"
+disableKinds = ['taxonomyTerm']
