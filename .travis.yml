@@ -1,6 +1,6 @@
 install:
 - pip install --user awscli
-- wget wget https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_0.68.3_Linux-64bit.deb
+- wget https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_0.68.3_Linux-64bit.deb
 - sudo dpkg -i hugo*.deb
 - hugo version
 before_script:
