@@ -5,10 +5,10 @@ install:
 - hugo version
 before_script:
 - rm -rf public
-
-script:
 - hugo
-
+script:
+- aws s3 sync public/ s3://humanitysilence.com --acl public-read --delete
+- aws cloudfront create-invalidation --distribution-id E282874W34WCL --paths '/*'
 branches:
  only:
  - master
