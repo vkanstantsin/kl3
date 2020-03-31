@@ -16,10 +16,10 @@ particlesJS('particles',
   {
     "particles": {
       "number": {
-        "value": 450,
+        "value": 250,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 1000
         }
       },
       "color": {
@@ -35,7 +35,7 @@ particlesJS('particles',
           "nb_sides": 5
         },
         "image": {
-          "src": "assets/libs/particles/vir250.gif",
+          "src": "assets/libs/particles/vir60.gif",
           "width": 1,
           "height": 1,
         }
@@ -71,7 +71,7 @@ particlesJS('particles',
         "enable": true,
         "speed": 5,
         "direction": "none",
-        "random": false,
+        "random": true,
         "straight": false,
         "out_mode": "out",
         "attract": {
