@@ -27,17 +27,14 @@ body, head {
 
 .footer {
 
-  margin: 0;
-  padding: 0;
-  background-color: #000000;
 
 }
 
 @media only screen and (orientation:portrait){
 body, head  {
-    transform: rotate(90deg);
+
     min-height: 100vw;
-    width: 50%;
+    width: 90%;
 
 
 
