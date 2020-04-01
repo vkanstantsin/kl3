@@ -27,10 +27,11 @@ body {
 }
 
 @media only screen and (orientation:portrait){
-  .particles {
+  body {
 
     min-height: 100vw;
-  
+    width: 60%;
+
 
 
 
