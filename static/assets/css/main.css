@@ -32,7 +32,7 @@
 
 @media only screen and (orientation:portrait){
   .particles {
-    transform: rotate(90deg);
+    
     height: auto;
 
 
