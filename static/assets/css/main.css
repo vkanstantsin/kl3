@@ -23,28 +23,19 @@ head, body {
 
 }
 
-head, body { display:block; }
-@media only screen and (orientation:portrait){
+.footer {
 
-  head, body {
-    height: 100vw;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-
-  }
 
 }
 
-@media only screen and (orientation:landscape){
-   head, body {
-     -webkit-transform: rotate(0deg);
-     -moz-transform: rotate(0deg);
-     -o-transform: rotate(0deg);
-     -ms-transform: rotate(0deg);
-     transform: rotate(0deg);
-  }
+@media only screen and (orientation:portrait){
+body, head  {
 
+    height: 100vw;
+    min-height: width: 1125px;
+
+
+
+
+  }
 }
