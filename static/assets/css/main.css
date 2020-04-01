@@ -31,7 +31,7 @@
 
 @media only screen and (orientation:portrait){
   .particles {
-    height: auto;
+    height: 100%;
     width: auto;
 
 
