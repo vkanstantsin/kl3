@@ -29,8 +29,8 @@ body {
 @media only screen and (orientation:portrait){
   .particles {
 
-    min-height: 200px;
-    width: 50%;
+    min-height: 100vh;
+    width: 100%;
 
 
 
