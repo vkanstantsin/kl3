@@ -34,10 +34,10 @@ body, head {
 }
 
 @media only screen and (orientation:portrait){
-body, head  {
+*  {
 
     min-height: 100vw;
-    width: 99%;
+    width: 98%;
 
 
 
