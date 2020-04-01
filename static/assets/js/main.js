@@ -17,7 +17,7 @@ particlesJS('particles',
     "background_color": "#000000",
     "particles": {
       "number": {
-        "value": 500,
+        "value": 1000,
         "density": {
           "enable": true,
           "value_area": 10000,
