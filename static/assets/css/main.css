@@ -29,13 +29,12 @@
 
 }
 
-@media only screen and (orientation:portrait){
-  .particles {
-    width: 100%;
-    max-height: none;
-    
+@media only screen and (min-device-width: 20px)  and (max-device-width: 991px)
+ .particles {
+   max-width: inherit;
+   max-height: inherit;
 
 
 
-  }
+
 }
