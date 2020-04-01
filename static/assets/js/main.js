@@ -17,10 +17,10 @@ particlesJS('particles',
     "background_color": "#000000",
     "particles": {
       "number": {
-        "value": 250,
+        "value": 500,
         "density": {
-          "enable": true,
-          "value_area": 1000
+          "enable": false,
+          "value_area": 10000,
         }
       },
       "color": {
