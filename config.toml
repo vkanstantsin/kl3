@@ -1,4 +1,4 @@
-baseURL = "http://humanitysilence.com"
-languageCode = "en-us"
-title = "Clean it"
-disableKinds = ['taxonomyTerm']
+# Site settings
+baseURL = "https://killthead.com"
+languageCode = "en-US"
+title = "Kill The ad"
