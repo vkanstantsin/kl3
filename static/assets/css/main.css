@@ -30,7 +30,7 @@ body {
   .particles {
 
     min-height: 100vw;
-    width: 99%;
+    min-width: 50%;
 
 
 
