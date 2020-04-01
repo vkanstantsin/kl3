@@ -14,6 +14,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 particlesJS('particles',
 
   {
+    "background_color": "#000000",
     "particles": {
       "number": {
         "value": 250,
@@ -122,7 +123,7 @@ particlesJS('particles',
     "retina_detect": true,
     "config_demo": {
       "hide_card": false,
-      "background_color": "#8B0000",
+
     }
   }
 
