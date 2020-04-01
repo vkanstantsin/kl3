@@ -15,7 +15,6 @@
 }
 
 .particles {
-  margin: auto;
   width: 100%;
   height: 100vh;
   background-color: #8B0000;
@@ -33,7 +32,7 @@
 @media only screen and (orientation:portrait){
   .particles {
 
-    height: 100vh;
+    height: 100%;
 
 
 

@@ -82,7 +82,7 @@ particlesJS('particles',
       }
     },
     "interactivity": {
-      "detect_on": "canvas",
+      "detect_on": "window",
       "events": {
         "onhover": {
           "enable": true,
@@ -122,11 +122,7 @@ particlesJS('particles',
     "retina_detect": true,
     "config_demo": {
       "hide_card": false,
-      "background_color": "#b61924",
-      "background_image": "",
-      "background_position": "50% 50%",
-      "background_repeat": "no-repeat",
-      "background_size": "cover"
+      "background_color": "#8B0000",
     }
   }
 
