@@ -18,4 +18,8 @@ head, body {
   width: 100%;
   height: 100vh;
   background-color: #000000;
-  
+}
+
+.footer {
+  transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */
+}
