@@ -9,7 +9,7 @@
   animation: mymovebg 5s 1;
       }
   @keyframes mymovebg {
-    0% {background-color: white;}
+    0% {background-color: #808080;}
     100% {background-color: black;}
 }
 .particles {
@@ -27,7 +27,7 @@ body {
   animation: mymovebg 5s 1;
       }
   @keyframes mymovebg {
-    0% {background-color: white;}
+    0% {background-color: #808080;}
     100% {background-color: black;}
 }
 
