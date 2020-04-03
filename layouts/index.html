@@ -9,38 +9,17 @@
 
     <link rel="stylesheet" href="/assets/css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <style>
-    .particles {
-      position: relative;
-      animation: mymove 7s 1;
-
-
-    }
-
-    @keyframes mymove {
-      from {background-color: white;}
-      to {background-color: black;}
-      0%   { opacity: 0; }
-      100% { opacity: 1; }
-
-
-    }
-    </style>
-
 
 
   </head>
   <body>
 
-    <div id="footer" class="footer" ></div>
 
 
-    {{ partial "footer" . }}
+    {{ partial "particles" . }}
+    {{ partial "clean" . }}
+    {{ partial "bmc-wbtn" . }}
 
-   <div id="particles" class="particles" ></div>
-
-   <script src="assets/libs/particles/particles.js"></script>
-   <script src="assets/js/main.js"></script>
 
 
 
