@@ -6,7 +6,7 @@
   height: 100vh;
   background-color: black;
   animation-timing-function:ease-in-out;
-  animation: mymovebg 3s 1;
+  animation: mymovebg 5s 1;
       }
   @keyframes mymovebg {
     0% {background-color: white;}
@@ -14,7 +14,7 @@
 }
 .particles {
   animation-timing-function:ease-in-out;
-  animation: mymovebcp 20s 1;
+  animation: mymovebcp 10s 1;
         }
   @keyframes mymovebcp {
       0%   { opacity: 0; }
@@ -24,7 +24,7 @@
 body {
   background-color: black;
   animation-timing-function:ease-in-out;
-  animation: mymovebg 3s 1;
+  animation: mymovebg 5s 1;
       }
   @keyframes mymovebg {
     0% {background-color: white;}
@@ -42,11 +42,6 @@ animation: mymovewg 20s 1;
   100% { opacity: 1; }
 }
 
-#clean {
-  padding: 0;
-  margin: 0;
-  font-family: sans-serif;
-}
 
 .container {
   text-align: center;
@@ -55,15 +50,18 @@ animation: mymovewg 20s 1;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  animation-timing-function:ease-in-out;
-  animation: text1 10s 1;
+
 }
 
   @keyframes text1 {
      0%   { opacity: 0; }
+     0%   { color: : black; }
      40%   { opacity: 1; }
+     40%   { color: white; }
      70%   { opacity: 0; }
      100% { opacity: 1; }
+     100%   { color: white; }
+
 
 
 }
@@ -73,10 +71,28 @@ animation: mymovewg 20s 1;
 }
 
 .text1 {
-
-
-  color:black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: white;
   font-size: 30px;
   font-weight: 700px;
   position: relative;
+  -webkit-text-fill-color: transparent
+  animation-timing-function:ease-in-out;
+  animation: text1 10s 1;
+}
+
+
+
+
+  @keyframes text1 {
+     0%   { opacity: 1; }
+     0%   { color: : black; }
+     40%   { opacity: 1; }
+     40%   { color: white; }
+     100% { opacity: 1; }
+     100%   { color: white; }
+
+
+
 }
