@@ -61,15 +61,14 @@ animation: mymovewg 20s 1;
 .container span {
   display: block;
   color: white;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
+
 
 }
 
 .text1 {
 
-  font-size: 30px;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 400;
   animation-timing-function:ease-in-out;
   animation: text1 10s 1;
 
