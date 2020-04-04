@@ -67,9 +67,9 @@ animation: mymovewg 20s 1;
 }
 
 .text1 {
-  position: sticky;
-  font-size: 40px;
-  font-weight: 500px;
+
+  font-size: 30px;
+  font-weight: 200;
   animation-timing-function:ease-in-out;
   animation: text1 10s 1;
 
