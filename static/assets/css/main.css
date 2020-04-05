@@ -25,7 +25,6 @@ body {
   padding: 0;
   margin: 0;
   background-color: black;
-  font-family: rockwell;
   animation-timing-function:ease-in-out;
   animation: mymovebg 5s 1;
       }
@@ -36,7 +35,7 @@ body {
 
 #bmc-wbtn {
 animation-timing-function:ease-in-out;
-animation: mymovewg 10s 1;
+animation: mymovewg 8s 1;
     }
 
 @keyframes mymovewg {
@@ -75,6 +74,7 @@ h3, h4 {
 }
 
 .text1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 27px;
   font-weight: 700;
   margin-top: 70px;
@@ -90,10 +90,7 @@ h3, h4 {
    50% { opacity: 1; }
    50%   { color: white; }
   100% { opacity: 0; }
-
-
 }
-
 
 @keyframes text2 {
   0%   { opacity: 0; }
