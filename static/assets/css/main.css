@@ -60,6 +60,15 @@ animation: mymovewg 20s 1;
 
 }
 
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+    animation-timing-function:ease-in-out;
+    animation: text2 10s infinite;
+
+
+}
+
 
 
 .container span {
@@ -67,24 +76,35 @@ animation: mymovewg 20s 1;
   color: white;
 
 
+
+
+
 }
 
 .text1 {
-  font-size: 25px;
-  font-weight: 700;  
+  font-size: 30px;
+  font-weight: 700;
   animation-timing-function:ease-in-out;
-  animation: text1 10s 1;
+  animation: text1 10s infinite;
+}
+
+@keyframes text1 {
+   0%   { opacity: 0; }
+   0% { color: white; }
+   50% { opacity: 1; }
+   50%   { color: white; }
+  100% { opacity: 0; }
 
 
 }
 
 
-@keyframes text1 {
-   0%   { opacity: 1; }
-   0%   { color: black; }
-   100% { opacity: 1; }
-   100%   { color: white; }
-
+@keyframes text2 {
+  0%   { opacity: 0; }
+  0% { color: white; }
+  50% { opacity: 1; }
+  50%   { color: white; }
+ 100% { opacity: 0; }
 
 
 }
