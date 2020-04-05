@@ -36,7 +36,7 @@ body {
 
 #bmc-wbtn {
 animation-timing-function:ease-in-out;
-animation: mymovewg 20s 1;
+animation: mymovewg 10s 1;
     }
 
 @keyframes mymovewg {
