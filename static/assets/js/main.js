@@ -91,7 +91,7 @@ particlesJS('particles',
         },
         "onclick": {
           "enable": true,
-          "mode": "push"
+          "mode": "remove"
         },
         "resize": true
       },
@@ -116,7 +116,7 @@ particlesJS('particles',
           "particles_nb": 4
         },
         "remove": {
-          "particles_nb": 1
+          "particles_nb": 100
         }
       }
     },
