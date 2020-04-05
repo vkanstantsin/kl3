@@ -1,5 +1,5 @@
-# Site settings
-baseURL = "https://killthead.com"
-languageCode = "en-US"
-title = "Kill The ad"
-tags = ["Clean Your Phone", "Go", "fast", "Blogging"]
+baseURL = "http://humanitysilence.com"
+languageCode = "en-us"
+title = "Clean it"
+disableKinds = ['taxonomyTerm']
+tags = ["Clean Your Phone", "touch screen", "health", "wipes", "wiping", "device", "virus", "haman","clean", "clean it", "humanity", "humanity silence", "silence"]
