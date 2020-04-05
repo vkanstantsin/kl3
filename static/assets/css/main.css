@@ -63,27 +63,25 @@ animation: mymovewg 20s 1;
 h3 {
     font-size: 25px;
     font-weight: 700;
+    margin: 10;
     animation-timing-function:ease-in-out;
     animation: text2 10s infinite;
-
-
 }
-
-
 
 .container span {
   display: block;
   color: white;
-
-
-
-
 
 }
 
 .text1 {
   font-size: 30px;
   font-weight: 700;
+  width: 260px ;
+  height: auto;
+  margin: 55px;
+  margin-left: auto;
+  margin-right: auto;
   animation-timing-function:ease-in-out;
   animation: text1 10s infinite;
 }
