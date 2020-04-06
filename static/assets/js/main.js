@@ -17,7 +17,7 @@ particlesJS('particles',
     "background_color": "#000000",
     "particles": {
       "number": {
-        "value": 600,
+        "value": 800,
         "density": {
           "enable": false,
           "value_area": 10000,
@@ -116,7 +116,7 @@ particlesJS('particles',
           "particles_nb": 4
         },
         "remove": {
-          "particles_nb": 50
+          "particles_nb": 20
         }
       }
     },

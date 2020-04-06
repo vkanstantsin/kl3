@@ -1,51 +1,50 @@
-.particles {
-  position: fixed;
+html,body {
+  background-color: black;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
-  background-color: black;
+  animation-fill-mode: forwards;
+}
+
+
+html,body {
   animation-timing-function:ease-in-out;
-  animation: mymovebg 5s 1;
-      }
+  animation: 5s mymovebg;
+  }
+
   @keyframes mymovebg {
     0% {background-color: #808080;}
     100% {background-color: black;}
-}
-.particles {
-  animation-timing-function:ease-in-out;
-  animation: mymovebcp 10s 1;
-        }
-  @keyframes mymovebcp {
-      0%   { opacity: 0; }
-      30%   { opacity: 0; }
-      100% { opacity: 1; }
-}
-body {
+  }
+
+
+
+.bmc-button {
   padding: 0;
   margin: 0;
-  background-color: black;
-  animation-timing-function:ease-in-out;
-  animation: mymovebg 5s 1;
-      }
-  @keyframes mymovebg {
-    0% {background-color: #808080;}
-    100% {background-color: black;}
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  transform: translate(-50%, -50%);
 }
 
-#bmc-wbtn {
+.bmc-button {
 animation-timing-function:ease-in-out;
-animation: mymovewg 8s 1;
+animation: mymoveft 8s 1;
     }
 
-@keyframes mymovewg {
+@keyframes mymoveft {
   0%   { opacity: 0; }
   60%   { opacity: 0; }
   100% { opacity: 1; }
 }
 
 
+
+
 h3, h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -53,51 +52,74 @@ h3, h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-
-
-
 }
 
-h3 {
-    font-size: 25px;
-    font-weight: 700;
+.text1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
     margin-top: -70px;
-    animation-timing-function:ease-in-out;
-    animation: text2 10s infinite;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
 
 h3, h4 {
   display: block;
   color: white;
-
 }
+
+
+.text2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin-top: 70px;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+
 
 .text1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 27px;
-  font-weight: 700;
-  margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  animation-timing-function:ease-in-out;
-  animation: text1 10s infinite;
+  animation: 5s fadeIn;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      visibility: visible;
+      opacity: 0;
+    }
+  }
+
+
+.text2 {
+    animation: 9s fadeIn2;
+    }
+
+    @keyframes fadeIn2 {
+      0% { opacity: 1; }
+      50% { visibility: visible; opacity: 0;  }
+      75% { opacity: 1; }
+      100% { visibility: visible; opacity: 0; }
+  }
+
+
+
+
+.particles {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      animation-fill-mode: forwards;
 }
 
-@keyframes text1 {
-   0%   { opacity: 0; }
-   0% { color: white; }
-   50% { opacity: 1; }
-   50%   { color: white; }
-  100% { opacity: 0; }
-}
+.particles {
+        animation-timing-function:ease-in-out;
+        animation: 10s mymovep ;
+        }
 
-@keyframes text2 {
-  0%   { opacity: 0; }
-  0% { color: white; }
-  50% { opacity: 1; }
-  50%   { color: white; }
- 100% { opacity: 0; }
-
-
-}
+        @keyframes mymovep {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+        }
