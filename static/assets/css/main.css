@@ -8,7 +8,7 @@ html,body {
 }
 
 
-html,body {
+html,body, head, footer,bmc-button {
   animation-timing-function:ease-in-out;
   animation: 5s mymovebg;
   }
@@ -27,9 +27,22 @@ html,body {
         height: 100vh;
         animation-fill-mode: forwards;
         background-color: black;
+        animation-fill-mode: forwards;
 
   }
 
+  .particles {
+          animation-timing-function:ease-in-out;
+          animation: 10s mymovep ;
+          }
+
+          @keyframes mymovep {
+            0% { opacity: 0; }
+            0% {background-color: #808080;}
+            60% { opacity: 0; }
+            100% {background-color: black;}
+            100% { opacity: 1; }
+          }
 
 
 
@@ -38,7 +51,7 @@ html,body {
 .bmc-button {
   padding: 0;
   margin: 0;
-  position: absolute;
+  position: fixed;
   bottom: 0%;
   right: 0%;
   transform: translate(-50%, -50%);
@@ -63,7 +76,7 @@ h3, h4 {
   padding: 0;
   margin: 0;
   text-align: center;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
