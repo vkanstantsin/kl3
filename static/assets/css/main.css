@@ -20,6 +20,21 @@ html,body {
 
 
 
+  .particles {
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+        height: 100vh;
+        animation-fill-mode: forwards;
+        background-color: black;
+
+  }
+
+
+
+
+
+
 .bmc-button {
   padding: 0;
   margin: 0;
@@ -56,7 +71,7 @@ h3, h4 {
 
 .text1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 27px;
     margin-top: -70px;
     visibility: hidden;
     animation-fill-mode: forwards;
@@ -70,7 +85,7 @@ h3, h4 {
 
 .text2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 27px;
   margin-top: 70px;
   visibility: hidden;
   animation-fill-mode: forwards;
@@ -102,24 +117,3 @@ h3, h4 {
       75% { opacity: 1; }
       100% { visibility: visible; opacity: 0; }
   }
-
-
-
-
-.particles {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100vh;
-      animation-fill-mode: forwards;
-}
-
-.particles {
-        animation-timing-function:ease-in-out;
-        animation: 10s mymovep ;
-        }
-
-        @keyframes mymovep {
-          0% { opacity: 0; }
-          100% { opacity: 1; }
-        }
