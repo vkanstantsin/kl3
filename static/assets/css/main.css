@@ -84,7 +84,7 @@ h3, h4 {
 
 .text1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 27px;
+    font-size: 35px;
     margin-top: -70px;
     visibility: hidden;
     animation-fill-mode: forwards;
@@ -98,7 +98,7 @@ h3, h4 {
 
 .text2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 27px;
+  font-size: 35px;
   margin-top: 70px;
   visibility: hidden;
   animation-fill-mode: forwards;
